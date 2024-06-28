@@ -1,0 +1,117 @@
+/* :root {
+    font-size: 20px;
+    box-sizing: inherit;
+} */
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+/* p:not(:last-child) {
+    margin-bottom: 1.5em;
+} */
+
+#card-div {
+    font-size: 1.2rem;
+}
+
+#heading-card {
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+
+#expenses-card {
+    font-size: 1.5rem;
+}
+
+body {
+    /* font: 1em/1.618 Inter, sans-serif; */
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    padding: 30px;
+    color: #224;
+    overflow-x: hidden;
+    background:
+        url(https://source.unsplash.com/E8Ufcyxz514/2400x1823) center / cover no-repeat fixed;
+}
+
+
+
+.container {
+    margin-left: 250px;
+    /* max-width: 90%; */
+}
+
+.card {
+    /* width: 90vw; */
+    /* height: 700px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: fit-content; */
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(169, 203, 186, 0.179);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(8px);
+    /* z-index: -1; */
+    /* left:140px; */
+}
+
+.card-footer {
+    font-size: 0.65em;
+    color: #446;
+}
+
+#card-div strong {
+    /* text-align: center; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+    font-size: 2rem;
+}
+
+#card-div {
+    /* margin-top: -450px; */
+    width: 90vw;
+    margin-left: -140px;
+}
+
+#c1 {
+    /* height: 40px; */
+    width: 86vw;
+    text-align: center;
+    padding: 20px;
+}
+
+#c2 {
+    width: 86vw;
+    margin-top: 20px;
+    padding: 20px;
+    /* max-height: 70vh; */
+}
+
+#expenses-card {
+    margin-top: 30px;
+    max-height: 46vh;
+    overflow-y: scroll;
+}
+
+#expenses-card .card {
+    z-index: 1;
+}
+
+#expenses-card div {
+    margin-top: 30px;
+}
